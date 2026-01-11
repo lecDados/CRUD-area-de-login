@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <link rel="stylesheet" href="style.css" />
+  <title>CRUD Simples</title>
+</head>
+<body>
+<section id="secao1">
+<h2>Cadastrar</h2>
+<input id="rUser" placeholder="Usuário" />
+<input id="rPass" placeholder="Senha" />
+<button onclick="register()">Cadastrar</button>
+</section>
+<section id="secao2" style="display: none;">
+<h2>Entrar</h2>
+<input id="lUser" placeholder="Usuário" />
+<input id="lPass" placeholder="Senha" />
+<button onclick="login()">Entrar</button>
+</section>
+<div id="log_direto">ja tenho conta</div>
+<div id="panel" hidden>
+  <p>Logado</p>
+  <button onclick="del()">Excluir conta</button>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
