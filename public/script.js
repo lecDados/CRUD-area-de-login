@@ -13,7 +13,8 @@ function register() {
     if (res.ok) {
       console.log('✅ Registro feito com sucesso');
     } else {
-      console.log('❌ Já existe um usuario com esse nome!');
+      alert('Algo deu errado');
+
     }
   })
   .catch(err => {
